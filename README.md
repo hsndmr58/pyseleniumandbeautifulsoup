@@ -5,4 +5,4 @@ Trendyol sitesi üzerinde bannerlara tıklanıp ürün satın alınmadığı zam
 </br>
 Aşağıya kaymasını istediğimiz bannerin text'ini kitle kısmındaki değişkene kopyalarsak istediğimiz bannerın sıralamsını kaydırabiliriz.
 </br>
-Bu işlemler sırasında ip değiştirmek için modeme reset attırma işlemide gerçekleştirilmektedir. Tabi kendi arayüzünüzün bilgileri gerekebilir.
+Bu işlemler sırasında ip değiştirmek için modeme reset attırma işlemide gerçekleştirilmektedir. Tabi kendi arayüzünüzün bilgileri gererek.
