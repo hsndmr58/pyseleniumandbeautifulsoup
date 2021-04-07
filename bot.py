@@ -34,7 +34,6 @@ while anu<len(veri):
     anu+=1
 sleep(2)
 while virüs<50:
-    
     # if(virüs!=0 and virüs%5==0):
     #     sleep(2)
     #     browser.get("http://192.168.1.1/login.html")
@@ -63,15 +62,9 @@ while virüs<50:
     sleep(4)
     degisken=random.randint(1,20)
     print(degisken)
-    
-    
     sleep(3)
-    try:
-        bnrbtn= browser.find_element_by_xpath('//*[@id="search-app"]/div/div/div[2]/div[2]/div/div['+str(degisken)+']/div[1]/a/div[1]/div/img').click()
-    except:
-        sleep(2)
-        bnrbtn= browser.find_element_by_xpath('//*[@id="search-app"]/div/div/div[2]/div[2]/div/div[1]/div[1]/div[1]').click()
-        sleep(2)
-        bnrbtn= browser.find_element_by_xpath('//*[@id="search-app"]/div/div/div[2]/div[2]/div/div['+str(degisken)+']/div[1]/a/div[1]/div/img').click()
+    browser.refresh()
+    sleep(2)
+    bnrbtn= browser.find_element_by_xpath('//*[@id="search-app"]/div/div/div[2]/div[2]/div/div['+str(degisken)+']/div[1]/a/div[1]/div/img').click()
     sleep(2)
     virüs+=1
