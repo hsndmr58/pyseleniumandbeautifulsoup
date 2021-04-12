@@ -4,8 +4,6 @@ from selenium import webdriver
 from datetime import datetime
 import pyautogui
 import random
-import os
-os.system("shutdown")
 
 an=datetime.now()
 senin_ben_yolunu="D:\chromedriver\chromedriver.exe"
