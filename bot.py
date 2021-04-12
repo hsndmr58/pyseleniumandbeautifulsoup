@@ -29,7 +29,7 @@ biz=0
 rakip2=0
 
 while banner<len(veri):
-    print(str(banner)+" - "+veri[banner])
+    print(str(banner+1)+" - "+veri[banner])
     banner+=1
 
 while anu<len(veri):
